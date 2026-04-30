@@ -1,6 +1,6 @@
 {
   "action": {
-    "default_title": "Open OpenClaw "
+    "default_title": "Open OpenClaw Pilot"
   },
   "background": {
     "service_worker": "background.js"
@@ -21,7 +21,7 @@
       }
     ]
   },
-  "description": "OpenClaw (MoltBot & ClawdBot) in your browser: Chat directly in the side panel, no need to switch IM apps.",
+  "description": "Browser-side Agent pilot for capturing web context, routing tasks, and connecting OpenClaw with future multi-model agents.",
   "host_permissions": ["\u003Call_urls>"],
   "icons": {
     "128": "icons/icon128.png",
@@ -30,7 +30,7 @@
     "48": "icons/icon48.png"
   },
   "manifest_version": 3,
-  "name": "OpenClaw ",
+  "name": "OpenClaw Pilot",
   "permissions": [
     "sidePanel",
     "storage",
